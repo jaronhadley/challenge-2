@@ -1,0 +1,146 @@
+nav {
+    display: flex;
+    background-color: #7e95d4;
+}
+nav a {
+    color: darkblue;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+}
+#headBar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 200px;
+    gap: 10px;
+}
+#pic {
+    grid-column: 1;
+    grid-row: 1;
+}
+#name {
+    grid-column: 2/4;
+    grid-row: 1;
+    align-self:end;
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.wrapper img {
+    width:100%;
+}
+#aboutMeHeader {
+    grid-column: 1;
+    grid-row: 1;
+    justify-content:right;
+    text-align:right;
+    border-right: 3px solid darkblue;
+    margin:10px;
+    padding:10px;
+}
+#aboutMe{
+    grid-row: 1;
+    grid-column: 2 / 4;
+    margin:10px;
+    padding:10px;
+}
+
+#work{
+    align-content:right;
+    grid-row: 2/7;
+    grid-column: 1;
+    text-align:right;
+    border-right: 3px solid darkblue;
+    margin:10px;
+    padding:10px;
+}
+
+#project1 {
+    grid-row: 2/ 4;
+    grid-column: 2/ 4;
+    align-content:center;
+    justify-content:center;
+    border: 2px solid darkblue;
+    text-align:center;
+}
+#project1:hover {
+    background-color:powderblue;
+}
+#project2 {
+    grid-row:4;
+    grid-column: 2;
+    border: 2px solid darkblue;
+    text-align:center;
+}
+#project2:hover {
+    background-color:powderblue;
+}
+#project3 {
+    grid-row: 4;
+    grid-column: 3;
+    border: 2px solid darkblue;
+    text-align:center;
+}
+#project3:hover {
+    background-color:powderblue;
+}
+#project4 {
+    grid-row: 5;
+    grid-column: 2;
+    border: 2px solid darkblue;
+    text-align:center;
+}
+#project4:hover {
+    background-color:powderblue;
+}
+#project5 {
+    grid-row: 5;
+    grid-column: 3;
+    border: 2px solid darkblue;
+    text-align:center;
+}
+#project5:hover {
+    background-color:powderblue;
+}
+#project6 {
+    grid-row: 6;
+    grid-column: 2;
+    border: 2px solid darkblue;
+    text-align:center;
+}
+#project6:hover {
+    background-color:powderblue;
+}
+#project7 {
+    grid-row: 6;
+    grid-column: 3;
+    border: 2px solid darkblue;
+    text-align:center;
+}
+#project7:hover {
+    background-color:powderblue;
+}
+#contactMeHeader {
+    grid-row: 7;
+    grid-column: 1;
+    text-align:right;
+    border-right: 3px solid darkblue;
+    margin:10px;
+    padding:10px;
+}
+#contactMe {
+    grid-row: 7;
+    grid-column: 2/4;
+    margin:10px;
+    padding:10px;
+}
